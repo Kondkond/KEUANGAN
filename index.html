@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#10233f">
+  <title>KEUANGAN</title>
+
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/9/98/Kota_Bengkulu.png">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #eee;
+    }
+
+    .iframe-container {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100vh;
+      height: 100dvh;
+      overflow: hidden;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      background: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="iframe-container">
+    <iframe
+      id="app"
+      src="https://script.google.com/macros/s/AKfycbwj0lkyqxZRJLIxeh8ZKKZj0wg1rqJITQvXAV5Jr8FhgaHzZGsGpksSSUS9EOFP0oPgRg/exec"
+      allow="fullscreen; camera; microphone; geolocation"
+      allowfullscreen>
+    </iframe>
+  </div>
+</body>
+</html>
